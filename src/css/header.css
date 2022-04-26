@@ -1,42 +1,83 @@
 @import "base.css";
 @import "sidebar.css";
 
-* {
-  box-sizing: border-box;
-}
-
 /*  Flexbox */
-
-.page-container {
-  display: flex;
-}
 
 .container-header {
   background-color: #fdf1eb;
   display: flex;
-  max-width: 100vw;
+  width: 100vw;
   max-height: 68px;
+  justify-content: space-between;
 }
+
 
 .user-info {
   display: flex;
-  align-items: center;
-  margin: 0 auto;
+  align-items: center; 
+  margin-right: 3%;
 }
 
+/* Fim */
+
+/* Estilização Header */
+
+/* User info and language button */
 .break-line {
-  display: block;
-}
+    display: block;
+  }
 
-
-/* Fim */
-
-
-/* Fim */
-
-.btn-idioms {
-  margin-right: 20px;
-}
 .text-user {
   text-align: right;
+}
+
+/* The main titles */
+
+.header-information {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.titles {
+    color: #725C5C;
+    font-family: "Roboto", sans-serif;
+}
+
+.minor-title {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.main-title{
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+.periodic-code {
+    font-weight: 400;
+    font-size: 14px; 
+}
+
+/* Second Box */
+
+.user-image{
+    background-image: url(../img/user.svg);
+    
+    width: 48px;
+    height: 48px;
+    margin-left: 12px;
+}
+
+.btn-idioms {
+    width: 96px;
+    height: 34px;
+    padding: 2px;
+    border: 1px solid #8b8b8b;
+    border-radius: 1px;
+    background-color: transparent;
+
+    margin: 0 20px 0 0;
 }

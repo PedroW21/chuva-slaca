@@ -25,6 +25,8 @@
   
   .lateral-menu {
     height: 100vh;
+    background-color: #FFFFFF;
+
   }
   
   .menu {
@@ -37,7 +39,6 @@
   .menu-items {
     font-size: 16px;
     font-weight: 500;
-    font-family: "Quicksand", sans-serif;
     border-bottom: 3px solid #f0f0f0;
     padding-bottom: 5px;
     
