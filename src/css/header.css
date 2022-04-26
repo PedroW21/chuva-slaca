@@ -1,0 +1,90 @@
+@import "base.css";
+
+* {
+  box-sizing: border-box;
+}
+
+/*  Flexbox */
+
+.page-container {
+  display: flex;
+}
+
+.container-header {
+  background-color: #fdf1eb;
+  display: flex;
+  max-width: 100vw;
+  max-height: 68px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.break-line {
+  display: block;
+}
+
+.lateral-menu {
+  display: fixed;
+  max-width: 220px;
+}
+
+/* Fim */
+
+/* Estilização menu lateral */
+
+.event-year {
+  max-width: 220px;
+  height: 68px;
+  padding-top: 20px;
+  text-align: center;
+
+  font-size: 30px;
+  background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  color: #ffffff;
+  font-weight: 700;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.latera-nav {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.lateral-menu {
+  height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 536px;
+}
+
+.menu-items {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Quicksand", sans-serif;
+  border-bottom: 3px solid #f0f0f0;
+  padding-bottom: 5px;
+  
+}
+
+.item-content {
+  margin-left: 12%;
+  text-decoration: none;
+  color: #725c5c;
+}
+
+/* Fim */
+
+.btn-idioms {
+  margin-right: 20px;
+}
+.text-user {
+  text-align: right;
+}
