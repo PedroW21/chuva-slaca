@@ -1,119 +1,136 @@
 .main-content {
-    display: flex;
-    margin-left: 2%;
-    margin-top: 24px;
-    justify-content: space-between;
+  display: flex;
+  margin-left: 2%;
+  margin-top: 24px;
+  justify-content: space-between;
 }
 
 /* Main Header */
 
-.lecture-title{
-    font-weight: 900;
-    font-size: 20px;
-    color: #ED7839;
-    font-family: 'Roboto';
-    width: 55%;
+.lecture-title {
+  font-weight: 900;
+  font-size: 20px;
+  color: #ed7839;
+  font-family: "Roboto";
+  width: 55%;
 }
 
 .do-stuffs {
-    margin-right: 5%;
+  margin-right: 5%;
 }
 
 button {
-    width: 82px;
-    background: #ED7839;
-    border-radius: 4px;
-    height: 31px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500px;
-    font-size: 16px;
-    padding: 2px;
-    cursor: pointer;
+  width: 82px;
+  background: #ed7839;
+  border-radius: 4px;
+  height: 31px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+  padding: 2px;
+  cursor: pointer;
 }
 
 .btn-down {
-    width: 120px;
-    height: 31px;  
-    color: #FFF;
+  width: 120px;
+  height: 31px;
+  color: #fff;
 }
 
 .down-icon {
-    content: url(../img/download-solid.svg);
-    width: 19px;
-    filter: invert()
-
+  content: url(../img/download-solid.svg);
+  width: 19px;
+  filter: invert();
 }
 
 .small-btn {
-    width: 43px;
+  width: 43px;
 }
 
 .star {
-    content: url(../img/star-regular.svg);
-    width: 19px;
-    filter: invert()
+  content: url(../img/star-regular.svg);
+  width: 19px;
+  filter: invert();
 }
 
 .doi {
-    content: url(../img/doi.svg);
+  content: url(../img/doi.svg);
 }
 
 .how-quote {
-    width: 239px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 18px;
-    margin-top: 4%;
+  width: 239px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 4%;
 
-    color: #ED7839;
+  color: #ed7839;
 }
 /* End */
 
 /* Main Video and details Section */
 
 .video {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 iframe {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 .details {
-    margin-right: 5%;
-    margin-top: 5px;
-    width: 260px;
-    border: 2px solid #ECECEC;
-    
+  margin-right: 5%;
+  margin-top: 5px;
+  width: 260px;
+  border: 2px solid #ececec;
 }
 
 .details-header {
-    padding: 12px;
-    background-color: #FDF1EB;
-    border-bottom: 2px solid #ECECEC;
+  padding: 12px;
+  background-color: #fdf1eb;
+  border-bottom: 2px solid #ececec;
 }
 
 .cotent-details {
-    font-size: 14px;
-    font-weight: 400;
-    padding: 6px;
-    margin-left: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px;
+  margin-left: 6px;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .universities {
-    color: #5C5C5C;
-    font-size: 12px;
-    margin-top: 10%; 
+  color: #5c5c5c;
+  font-size: 12px;
+  margin-top: 10%;
 }
 
 .authors-header {
-    font-size: 16px;
-    color: #5C5C5C;
-    width: 125px;
+  font-size: 16px;
+  color: #5c5c5c;
+  width: 125px;
 }
 
+/* Resumo */
+
+.resume {
+  margin-left: 2%;
+  margin-top: 2%;
+  text-align: justify;
+  width: 93%;
+
+}
+
+.resume-title {
+  background: #fdf1eb;
+  border: 1px solid #ececec;
+  padding: 12px;
+}
+
+.resume-content {
+    border: 1px solid #ECECEC;
+}
