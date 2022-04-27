@@ -84,6 +84,7 @@ iframe {
   margin-top: 5px;
   width: 260px;
   border: 2px solid #ececec;
+  border-radius: 3px;
 }
 
 .details-header {
@@ -122,15 +123,104 @@ iframe {
   margin-top: 2%;
   text-align: justify;
   width: 93%;
-
+  border-radius: 3px;
 }
 
 .resume-title {
   background: #fdf1eb;
   border: 1px solid #ececec;
   padding: 12px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+
 }
 
 .resume-content {
-    border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
+    line-height: 22.75px;
+}
+
+/* Discussions */
+
+.discussion {
+  width: 93%;
+  margin-left: 2%;
+  margin-top: 2%;
+  height: 310px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+}
+
+.discussion-title {
+  background: #fdf1eb;
+  border: 1px solid #ececec;
+  padding: 12px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.share-ideias {
+    border-bottom: 1px solid #ececec;
+    padding: 18px;
+    width: 98%;
+    margin: 0 auto;
+   
+}
+
+.share-ideias__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #ED7839;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.share-ideias__icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-one {
+    content: url(../img/hand-with-plant.svg);
+}
+
+
+.icon-two {
+    content: url(../img/questions-and-answers.svg);
+}
+
+.icon-three {
+    content: url(../img/persons-ideias.svg);
+}
+
+.icons {
+    margin: 1%;
+}
+
+.share-ideias__description {
+    width: 626px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+/* Topics */
+
+.new-topic {
+    color: #FFF;
+    width: 133px;
+    height: 32px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    position: absolute;
+    margin: 3px 34%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.plus-icon__new-topic {
+    content: url(../img/icon\ -\ criar.svg);
 }
