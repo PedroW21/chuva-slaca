@@ -147,6 +147,7 @@ iframe {
   margin-top: 2%;
   border: 1px solid #ececec;
   border-radius: 3px;
+  padding-bottom: 15px;
 }
 
 .discussion-title {
@@ -210,7 +211,7 @@ iframe {
   border-radius: 4px;
   background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
   position: absolute;
-  margin: 3px 34%;
+  margin: 3px 36%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -222,11 +223,7 @@ iframe {
 
 /* Individual Comments */
 
-.indiviual-comments {
-}
-
 .comment {
-  box-sizing: border-box;
   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   margin-top: 1%;
@@ -289,4 +286,26 @@ iframe {
   color: #4d4d4d;
 }
 
+.footer {
+  width: 90%;
+  margin-left: 1%;
+  padding: 14px;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 
+  border-top: 2px solid #ececec;
+
+}
+
+.description-footer{
+  line-height: 24px;
+  width: 70%;
+
+}
+
+.content-footer {
+  padding-bottom: 12px;
+  font-size: 18px;
+}
