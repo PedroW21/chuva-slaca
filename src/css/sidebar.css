@@ -32,7 +32,7 @@
   .menu {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      /* justify-content: space-evenly; */
       height: 536px;
   }
   
@@ -41,7 +41,7 @@
     font-weight: 500;
     border-bottom: 3px solid #f0f0f0;
     padding-bottom: 5px;
-    
+    padding: 8px;
   }
   
   .item-content {

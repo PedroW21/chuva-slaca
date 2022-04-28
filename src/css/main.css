@@ -1,3 +1,5 @@
+@import "base.css";
+
 .main-content {
   display: flex;
   margin-left: 2%;
@@ -19,17 +21,6 @@
   margin-right: 5%;
 }
 
-button {
-  width: 82px;
-  background: #ed7839;
-  border-radius: 4px;
-  height: 31px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500px;
-  font-size: 16px;
-  padding: 2px;
-  cursor: pointer;
-}
 
 .btn-down {
   width: 120px;
@@ -85,19 +76,24 @@ iframe {
   width: 260px;
   border: 2px solid #ececec;
   border-radius: 3px;
+  line-height: 22px;
+
 }
 
-.details-header {
+.details-title {
   padding: 12px;
   background-color: #fdf1eb;
   border-bottom: 2px solid #ececec;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.cotent-details {
+.content-details {
   font-size: 14px;
   font-weight: 400;
   padding: 6px;
   margin-left: 6px;
+  
 }
 
 .bold {
@@ -130,13 +126,14 @@ iframe {
   background: #fdf1eb;
   border: 1px solid #ececec;
   padding: 12px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Roboto", sans-serif;
 }
 
 .resume-content {
   border: 1px solid #ececec;
   line-height: 22.75px;
+  padding: 15px;
 }
 
 /* Discussions */
@@ -163,6 +160,10 @@ iframe {
   padding: 18px;
   width: 98%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 300px;
 }
 
 .share-ideias__title {
@@ -211,7 +212,8 @@ iframe {
   border-radius: 4px;
   background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
   position: absolute;
-  margin: 3px 36%;
+  margin-left: 36%;
+  margin-top: 16%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -299,6 +301,10 @@ iframe {
 
 }
 
+.footer-logo {
+  width: 15%;
+}
+
 .description-footer{
   line-height: 24px;
   width: 70%;
@@ -308,4 +314,12 @@ iframe {
 .content-footer {
   padding-bottom: 12px;
   font-size: 18px;
+}
+
+/* Selected page */
+
+.selected {
+  background: #FDF1EB;
+  border-left: 5px solid #ED7839 ;
+  margin-left: 3%;
 }
