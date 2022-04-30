@@ -1,13 +1,13 @@
 .footer {
-    width: 90%;
-    margin-left: 1%;
-    padding: 14px;
-    margin-top: 5%;
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
-  
     border-top: 2px solid #ececec;
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1%;
+    margin-top: 5%;
+    padding: 14px;
+    width: 90%;
   }
   
   .footer-logo {
@@ -15,11 +15,11 @@
   }
   
   .footer-description {
-    line-height: 24px;
+    line-height: 1.5rem;
     width: 70%;
   }
   
   .footer-content {
-    padding-bottom: 12px;
-    font-size: 18px;
+    font-size: 1.125rem;
+    padding-bottom: 0.75rem;
   }

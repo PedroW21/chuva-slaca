@@ -1,0 +1,52 @@
+.answers {
+    border: 1px solid var(--border-elements);
+    
+    display: flex;
+    flex-direction: column;
+    height: 9.25rem;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 1.5rem;
+    width: 98%;
+  }
+  
+  .comment-author__style {
+    background: var(--comment-author-style);
+  }
+  
+  .answer-comment {
+    font-weight: 700;
+    font-size: 0.75rem;
+  }
+  
+  .answer-comment {
+    font-size: 0.875rem;
+  }
+  
+  .coauthor-answer__icon1 {
+    content: url(../img/Coautor.svg);
+    height: 1.125rem;
+    width: 4.375rem;
+  }
+  
+  .coauthor-answer__icon2 {
+    content: url(../img/sure.svg);
+    margin-left: 0.813rem;
+  }
+  
+  .author-answer__icon1 {
+    content: url(../img/Autor.svg);
+    height: 1.125rem;
+    width: 3rem;
+  }
+  
+  .author-answer__icon2 {
+    content: url(../img/sure.svg);
+    margin-left: 0.813rem;
+  }
+  
+  .container-author__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  

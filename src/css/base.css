@@ -1,5 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Roboto:wght@500;700;900&display=swap");
 
+:root{
+  --white: #FFFFFF;
+  --dark-light-orange: #ee7a3a;
+  --light-orange-bg: #FDF1EB;
+
+  /* Side bar colors */
+  --border-sidebar-color: #f0f0f0;
+  --light-brown-text: #725c5c;
+
+  /* Header page */
+  --border-button-lang: #CCCCCC;
+  --dark-darker-orange: #ed7839;
+
+  /* Header main content */
+  --transition-color-btn: #286090;
+
+  /* Video and Details */
+  --border-elements: #ececec;
+  --paragraph-text-color: #5c5c5c;
+
+  /* Topics */
+  --paragraph-topic-done: #595959;
+  --subtitle-topic-done: #f48f44;
+
+  /* Comments */
+  --comment-content: #4d4d4d;
+
+  /* Answers */
+  --comment-author-style: #f8f8f8;
+}
+
 * {
   box-sizing: border-box;
 }

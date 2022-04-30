@@ -69,8 +69,17 @@ $(".new-topic__submit-button").click((event) => {
 
   discussionTopic(subjectTopic, subjectContent);
 
+  $("form :input").val(""); // clean the inputs
+
   newTopicToSend.hide();
   newTopicDone.slideDown(2000);
+});
+
+// 
+
+$(".after-send").click(() => {
+  newTopicDone.hide();
+  newTopicToSend.slideDown(2000);
 });
 
 // Answers

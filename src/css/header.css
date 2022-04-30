@@ -1,31 +1,9 @@
-/*  Flexbox */
-
 .container-header {
-  background-color: #fdf1eb;
+  background-color: var(--light-orange-bg);
   display: flex;
-  width: 100%;
-  height: 68px;
+  height: 4.25rem;
   justify-content: space-between;
-}
-
-
-.user-info {
-  display: flex;
-  align-items: center; 
-  margin-right: 3%;
-}
-
-/* Fim */
-
-/* Estilização Header */
-
-/* User info and language button */
-.break-line {
-    display: block;
-  }
-
-.text-user {
-  text-align: right;
+  width: 100%;
 }
 
 /* The main titles */
@@ -38,81 +16,99 @@
 }
 
 .titles {
-    color: #725C5C;
+    color: var(--light-brown-text);
     font-family: "Roboto", sans-serif;
 }
 
 .minor-title {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .main-title{
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;
 
 }
 
 .periodic-code {
     font-weight: 400;
-    font-size: 14px; 
+    font-size: 0.875rem; 
 }
 
-/* Second Box */
+/* User informations (account) */
+
+.user-info {
+  align-items: center; 
+  display: flex;
+  margin-right: 3%;
+}
+
+.break-line {
+    display: block;
+}
+
+.text-user {
+  text-align: right;
+}
 
 .user-image{
     background-image: url(../img/user.svg);
     
-    width: 48px;
-    height: 48px;
-    margin-left: 12px;
+    height: 3rem;
+    margin-left: .75rem;
+    width: 3rem;
 }
 
-.btn-idioms {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 120px;
-    height: 34px;
-    padding: 2px;
-    border: 1px solid #CCCCCC;
-    border-radius: 1px;
-    background-color: transparent;
-    cursor: pointer;
-    margin: 0 20px 0 0;
+/* Idiom button */
 
+.btn-idioms {
+    align-items: center;
+
+    border: 1px solid  var(--border-button-lang);
     border-radius: 3px;
+    background-color: transparent;
+
+    cursor: pointer;
+
+    display: flex;
+    height: 2.125rem;
+    justify-content: space-evenly;
+    margin-right: 1.25rem;
+    width: 7.5rem;
+
 
 }
 
 .world-icon{
   content: url(../img/globe-solid.svg);
-  width: 16px;
+  width: 1rem;
 }
 
 .drop-icon {
   content: url(../img/dropdown.svg);
 }
 
-/* Button Js */
-
+/* Language Options */
 
 .dropdown-elements {
+  border: 1px solid var(--border-button-lang);
+  background-color: var(--light-orange-bg);
+  border-radius: 1px;
+
+  cursor: pointer;
+  
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 120px;
-  border: 1px solid #CCCCCC;
-  border-radius: 1px;
-  background-color: #fdf1eb;
+  width: 7.5rem;
 
-  cursor: pointer;
 }
 
 .dropdown-item {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  border: 1px solid #CCCCCC;
+  border: 1px solid var(--border-button-lang);
+  padding-top: .5rem;
+  padding-bottom: .5rem;
   text-align: center;
 }
 

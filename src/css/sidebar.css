@@ -1,61 +1,46 @@
-.lateral-menu {
-    display: fixed;
-    max-width: 220px;
-  }
-  
-/* Estilização menu lateral */
-
 .event-year {
-    max-width: 220px;
-    height: 68px;
-    padding-top: 20px;
-    text-align: center;
+  background: linear-gradient(180deg, #FFB354 0%, var(--dark-light-orange) 100%);
+  color: var(--white);
+  font-size: 1.875rem;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
   
-    font-size: 30px;
-    background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
-    color: #ffffff;
-    font-weight: 700;
-  
-    font-family: "Roboto", sans-serif;
-  }
-  
-  .lateral-nav {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  }
-  
-  .lateral-menu {
-    height: 100vh;
-    background-color: #FFFFFF;
-
-  }
-  
-  .menu {
-      display: flex;
-      flex-direction: column;
-      /* justify-content: space-evenly; */
-      height: 536px;
-  }
-  
-  .menu-items {
-    font-size: 16px;
-    font-weight: 500;
-    border-bottom: 3px solid #f0f0f0;
-    padding-bottom: 5px;
-    padding: 8px;
-  }
-  
-  .item-content {
-    margin-left: 12%;
-    text-decoration: none;
-    color: #725c5c;
-  }
-
-  /* Selected page */
-
-.selected {
-  background: #fdf1eb;
-  border-left: 5px solid #ed7839;
-  margin-left: 3%;
+  height: 4.25rem;
+  padding-top: 1.25rem;
+  text-align: center;
 }
 
-    
+.lateral-nav {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.lateral-menu {
+  height: 100vh;
+  background-color: var(--white);
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-items {
+  font-size: 1rem;
+  font-weight: 500;
+  border-bottom: 3px solid var(--border-sidebar-color);
+  padding-bottom: 0.313rem;
+  padding: 0.5rem;
+}
+
+.item-content {
+  margin-left: 12%;
+  text-decoration: none;
+  color: var(--light-brown-text);
+}
+
+/* TODO: Estilizar a pagina atualmente ativa */
+
+.selected-page {
+  background: var(--light-orange-bg);
+  border-left: 5px solid var(--dark-light-orange);
+}
