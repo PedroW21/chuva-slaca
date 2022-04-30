@@ -1,8 +1,15 @@
+//Variables to not acess DOM every time
+
+let newTopicNormal = $(".ideias-doubts__initial-view");
+let newTopicToSend = $(".ideias-doubt__new-topic-view");
+let newTopicDone = $(".ideas-doubt__new-topic-done");
+
 // Hide the elements when the document is ready
+
 $(() => {
   $(".dropdown-elements").hide();
-  $(".new-topic__view").hide();
-  $(".new-topic__done").hide();
+  newTopicToSend.hide();
+  newTopicDone.hide();
   $(".answers").hide();
 });
 
@@ -24,17 +31,18 @@ $(".dropdown-item").click((item) => {
 
 // Download the article
 
-$(".btn-down").click(()=>{
-  window.open("https://proceedings.science/proceedings/100121/_papers/113386/download/abstract_file1", "_blank");
+$(".btn-down").click(() => {
+  window.open(
+    "https://proceedings.science/proceedings/100121/_papers/113386/download/abstract_file1",
+    "_blank"
+  );
 });
 
 // Favorite change colgroup
 
-$(".btn-star").click(()=> {
+$(".btn-star").click(() => {
   $(".btn-star").toggleClass("bg-color");
-})
-
-
+});
 
 // Short the resume text
 
@@ -47,14 +55,13 @@ $(".resume-content").shorten({
 // New Topic
 
 $(".new-topic").click(() => {
-  $(".normal-view").hide();
-  $(".new-topic__done").hide();
-  $(".new-topic__view").slideDown(2000);
+  newTopicNormal.hide();
+  newTopicToSend.slideDown(2000);
 });
 
 // New comments attached on the discussion field
 
-$(".submit-button").click((event) => {
+$(".new-topic__submit-button").click((event) => {
   event.preventDefault();
 
   let subjectTopic = $(".input-assunt").val();
@@ -62,52 +69,51 @@ $(".submit-button").click((event) => {
 
   discussionTopic(subjectTopic, subjectContent);
 
-  $(".new-topic__view").hide();
-  $(".new-topic__done").slideDown(1500);
+  newTopicToSend.hide();
+  newTopicDone.slideDown(2000);
 });
 
-// Answers 
+// Answers
 
-$(".answerd").click((event) => {
-  console.log(event)
+$(".answerd").click(() => {
   $(".answers").slideToggle("slow");
-})
+});
 
 // Functions
 
 function dropDownItemsVisibility() {
   $(".dropdown-elements").slideUp("slow");
-};
+}
 
-function discussionTopic (title, content) {
+function discussionTopic(title, content) {
   return $(".indiviual-comments").append(`
   <div class="comment">
   <div class="comment-content__container">
-  <h5 class="title-comment">${title}</h5>
-  <p class="author-comment">
+  <h5 class="comment-title">${title}</h5>
+  <p class="comment-author">
       Carlos Henrique Santos
   </p>
 
-  <p class="content-comment">
+  <p class="comment-content">
       ${content}
   </p>
 
-  <section class="indiviual-comments__footer">
+  <section class="comment-footer">
 
-      <button class="more-info" type="button">
-          <span class="more-info__icon"></span>
-      </button>
+  <button class="more-info" type="button">
+    <span class="more-info__icon"></span>
+  </button>
 
-      <button class="heart-like" type="button">
-          <span class="heart-icon"></span>
-      </button>
+  <button class="heart-like" type="button">
+    <span class="heart-icon"></span>
+  </button>
 
-      <p class="number-likes">likes</p>
-      <p class="number-answers">resposta</p>
+  <p class="number-likes">likes</p>
+  <p class="number-answers">resposta</p>
 
-  </section>
+</section>
 </div>
 
 </div>
 `);
-};
+}
