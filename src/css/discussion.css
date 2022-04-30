@@ -1,0 +1,178 @@
+/* Discussions */
+
+.discussion {
+  width: 93%;
+  margin-left: 2%;
+  margin-top: 2%;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  padding-bottom: 15px;
+}
+
+.discussion-title {
+  background: #fdf1eb;
+  border: 1px solid #ececec;
+  padding: 12px;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
+
+.ideias-doubts {
+  border-bottom: 1px solid #ececec;
+  padding: 18px;
+  width: 98%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+.ideias-doubts__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #ed7839;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.ideias-doubts__icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-one {
+  content: url(../img/hand-with-plant.svg);
+}
+
+.icon-two {
+  content: url(../img/questions-and-answers.svg);
+}
+
+.icon-three {
+  content: url(../img/persons-ideias.svg);
+}
+
+.icons {
+  margin: 1%;
+}
+
+.ideas-doubts__description {
+  width: 626px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Topics */
+
+.new-topic {
+  color: #fff;
+  width: 133px;
+  height: 32px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+  background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
+  transform: translate(500%, 150%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.new-topic__plus-icon {
+  content: url(../img/icon\ -\ criar.svg);
+}
+
+/* New Discussion Topic (user interaction) */
+
+.ideias-doubt__new-topic-view {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-topic__title {
+  color: #5c5c5c;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.subject-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ed7839;
+  padding: 10px 0 4px 0;
+  display: block;
+}
+
+.input-assunt {
+  height: 39px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+}
+
+.subject-text {
+  height: 113px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  resize: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+}
+
+.new-topic__submit-button {
+  width: 205.1px;
+  height: 31px;
+  margin: 0 86.4%;
+  background: linear-gradient(180deg, #feb154 0%, #f1833e 100%);
+  border-radius: 0px 0px 4px 0px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Created topic (stuffs to do after send it) */
+
+.ideas-doubt__new-topic-done {
+  width: 96%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.topic-done__title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 18px;
+  color: #ed7839;
+}
+
+.topic-done__info {
+  text-align: center;
+  font-weight: 400;
+
+  color: #595959;
+}
+
+.topic-done__subtitle {
+  margin: 0;
+  padding: 0;
+  color: #f48f44;
+  cursor: pointer;
+}
+
+.topic-done__subtitle:hover {
+  text-decoration: underline #f48f44;
+}
+
+.after-send {
+  transform: none;
+  width: 235.15px;
+}

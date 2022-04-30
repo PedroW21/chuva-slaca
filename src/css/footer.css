@@ -1,0 +1,25 @@
+.footer {
+    width: 90%;
+    margin-left: 1%;
+    padding: 14px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+    border-top: 2px solid #ececec;
+  }
+  
+  .footer-logo {
+    width: 15%;
+  }
+  
+  .footer-description {
+    line-height: 24px;
+    width: 70%;
+  }
+  
+  .footer-content {
+    padding-bottom: 12px;
+    font-size: 18px;
+  }

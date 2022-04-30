@@ -1,0 +1,21 @@
+.resume {
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: justify;
+    width: 93%;
+    border-radius: 3px;
+  }
+  
+  .resume-title {
+    background: #fdf1eb;
+    border: 1px solid #ececec;
+    padding: 12px;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .resume-content {
+    border: 1px solid #ececec;
+    line-height: 22.75px;
+    padding: 15px;
+  }

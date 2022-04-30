@@ -1,12 +1,4 @@
-@import "base.css";
-@import "sidebar.css";
-
 /*  Flexbox */
-
-.header-block {
-  width: 100vw;
-  display: block;
-}
 
 .container-header {
   background-color: #fdf1eb;

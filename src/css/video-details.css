@@ -1,0 +1,51 @@
+/* Main Video and details Section */
+
+.video-details {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  iframe {
+    margin-left: 2%;
+  }
+  
+  .details {
+    margin-right: 5%;
+    margin-top: 5px;
+    width: 260px;
+    border: 2px solid #ececec;
+    border-radius: 3px;
+    line-height: 22px;
+  }
+  
+  .details-title {
+    padding: 12px;
+    background-color: #fdf1eb;
+    border-bottom: 2px solid #ececec;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .details-content {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px;
+    margin-left: 6px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .universities {
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 10%;
+  }
+  
+  .authors {
+    font-size: 16px;
+    color: #5c5c5c;
+    width: 125px;
+}
+  

@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/main.css">
     <title>Slaca</title>
 </head>
@@ -15,7 +13,7 @@
 
     <div class="page-container">
 
-        <section class="latera-nav">
+        <section class="lateral-nav">
             <nav class="lateral-menu">
 
                 <p class="event-year">SLACA 2019</p>
@@ -63,7 +61,7 @@
             </nav>
         </section>
 
-        <div class="header-block">
+        <div class="content-container">
 
             <section class="container-header">
 
@@ -116,14 +114,14 @@
             </section>
 
 
-            <section class="main-content">
+            <section class="main-content__header-container">
 
                 <h1 class="lecture-title">
                     Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do
                     município de Campinas/SP
                 </h1>
 
-                <div class="do-stuffs">
+                <div class="user-interaction">
                     <button class="btn-down">
                         <span class="down-icon"></span>
                         Download
@@ -133,9 +131,11 @@
 
                     <p class="how-quote">Como citar esse trabalho?</p>
                 </div>
+
             </section>
 
-            <section class="video">
+            <section class="video-details">
+
                 <iframe width="916" height="539" src="https://www.youtube.com/embed/02RFPOO0UR0"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -145,22 +145,22 @@
 
                     <h3 class="details-title">Detalhes</h3>
 
-                    <p class="content-details">
+                    <p class="details-content">
                         Tipo de Apresentação: <span class="bold">Pôster</span>
                     </p>
 
-                    <p class="content-details">
+                    <p class="details-content">
                         Eixo temático: <span class="bold">
                             Alimentação e saúde (AS)
                         </span> </p>
-                    <p class="content-details">
+                    <p class="details-content">
                         Palavras-chaves:
                         <span class="bold">
                             Alimentos funcionais, alimentação escolar.
                         </span>
                     </p>
 
-                    <p class="content-details authors-header">
+                    <p class="details-content authors">
                         <span class="bold">
                             Autores:
                         </span>
@@ -171,7 +171,7 @@
                         Stephen Hawking
                     </p>
 
-                    <p class="content-details universities">
+                    <p class="details-content universities">
                         Universidade Estadual de Campinas
                         Universidade de São Paulo
                         Instituto Nacional de Pesquisas Espaciais
@@ -203,7 +203,6 @@
                     Phasellus porta porttitor faucibus. Vivamus sed justo arcu. Proin eu diam lacinia, tempor ipsum
                     eget, venenatis nisi. Curabitur vehicula condimentum hendrerit. Nam consequat cursus augue, sed
                     faucibus urna finibus in..
-                    <!-- TODO: SHOW MORE jQuery -->
                 </p>
             </section>
 
@@ -213,38 +212,39 @@
                     Discussões
                 </h4>
 
-                <section class="share-ideias">
+                <section class="ideias-doubts">
 
-                    <div class="normal-view">
-                        <h5 class="share-ideias__title">
+                    <div class="ideias-doubts__initial-view hidden">
+                        <h5 class="ideias-doubts__title">
                             Compartilhe suas ideias ou dúvidas com os autores!
                         </h5>
 
-                        <div class="share-ideias__icons">
+                        <div class="ideias-doubts__icons">
                             <span class="icon-one icons"></span>
                             <span class="icon-two icons"></span>
                             <span class="icon-three icons"></span>
                         </div>
 
-                        <p class="share-ideias__description">
+                        <p class="ideas-doubts__description">
                             Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe
                             seus
                             questionamentos ou sugestões para o autor!
                         </p>
 
                         <button class="new-topic" type="button">
-                            <span class="plus-icon__new-topic"></span>
+                            <span class="new-topic__plus-icon"></span>
                             criar tópico
                         </button>
                     </div>
 
-                    <form class="new-topic__view">
+                    <form class="ideias-doubt__new-topic-view hidden">
+                        
                         <h6 class="new-topic__title">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
                             autores!</h6>
 
                         <label class="subject-title" for="new-discussion-subject">Assunto</label>
 
-                        <input class="input-assunt" type="text" id="new-discussion-subject"
+                        <input class="input-assunt" id="new-discussion-subject"type="text"
                             placeholder="Defina um tópico sucinto para notificar os autores..." required>
 
                         <label class="subject-title" for="new-discussion-content">Contéudo</label>
@@ -252,21 +252,22 @@
                         <textarea class="subject-text" id="new-discussion-content" name="new-discussion-content"
                             required></textarea>
 
-                        <button class="submit-button">Enviar</button>
+                        <button class="new-topic__submit-button">Enviar</button>
 
                     </form>
 
-                    <div class="new-topic__done">
-                        <h5 class="share-ideias__title">
-                            Compartilhe suas ideias ou dúvidas com os autores!
+                    <div class="ideas-doubt__new-topic-done">
+
+                        <h5 class="topic-done__title">
+                            Seu tópico foi enviado com sucesso! :D
                         </h5>
 
-                        <p class="new-topic__title">Agradecemos por sua contribuição, uma notificação será enviada ao
+                        <p class="topic-done__info">Agradecemos por sua contribuição, uma notificação será enviada ao
                             seu email assim que seu tópico for respondido!</p>
 
-                        <p class="how-quote new-topic__subtitle">Descubra outros trabalhos!</p>
+                        <p class="topic-done__subtitle">Descubra outros trabalhos!</p>
 
-                        <button class="new-topic after-done" type="button">
+                        <button class="new-topic after-send" type="button">
                             criar novo tópico
                         </button>
                     </div>
@@ -279,18 +280,18 @@
                     <div class="comment">
 
                         <div class="comment-content__container">
-                            <h5 class="title-comment">Assunto da pergunta aparece aqui</h5>
-                            <p class="author-comment">
+                            <h5 class="comment-title">Assunto da pergunta aparece aqui</h5>
+                            <p class="comment-author">
                                 Carlos Henrique Santos
                             </p>
 
-                            <p class="content-comment">
+                            <p class="comment-conent">
                                 Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
                                 dimensão e impacto de processo formativo situado impacto de processo formativo
                                 processo...
                             </p>
 
-                            <section class="indiviual-comments__footer">
+                            <section class="comment-footer">
 
                                 <button class="more-info" type="button">
                                     <span class="more-info__icon"></span>
@@ -310,18 +311,18 @@
 
                     <div class="comment">
                         <div class="comment-content__container">
-                            <h5 class="title-comment">Assunto da pergunta aparece aqui</h5>
-                            <p class="author-comment">
+                            <h5 class="comment-title">Assunto da pergunta aparece aqui</h5>
+                            <p class="comment-author">
                                 Carlos Henrique Santos
                             </p>
 
-                            <p class="content-comment">
+                            <p class="comment-content">
                                 Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
                                 dimensão e impacto de processo formativo situado impacto de processo formativo
                                 processo...
                             </p>
 
-                            <section class="indiviual-comments__footer">
+                            <section class="comment-footer">
 
                                 <button class="more-info" type="button">
                                     <span class="more-info__icon answerd"></span>
@@ -340,7 +341,7 @@
 
                     </div>
 
-                    <section class="answers author">
+                    <section class="answers comment-author__style">
                         <div class="container-author__header">
                             <p class="author-comment answer-comment">
                                 Adriano da Silva
@@ -362,14 +363,14 @@
                         <p class="author-comment answer-comment">
                             Carlos Henrique Santos
                         </p>
-                        <p class="content-comment answer-content">
+                        <p class="content-comment comment-author__style">
                             Consegui entender melhor agora! Parece que a variação da análise da dimensão e impacto
                             de processo formativo situado impacto de processo formativo.Obrigada pela resposta,
                             muito interessante o seu trabalho!
                         </p>
                     </section>
 
-                    <section class="answers author">
+                    <section class="answers comment-author__style">
 
                         <div class="container-author__header">
                             <p class="author-comment answer-comment">
@@ -396,7 +397,7 @@
 
                     </section>
 
-                    <section class="answers author">
+                    <section class="answers comment-author__style">
                         <div class="container-author__header">
                             <p class="author-comment answer-comment">
                                 Ana Carolina
@@ -421,13 +422,13 @@
 
                 <img src="/src/img/galoa.png" alt="Imagem contento o logo da Galoa" class="footer-logo">
 
-                <div class="description-footer">
+                <div class="footer-description">
 
-                    <p class="content-footer"><span class="bold">Preservar a memória do evento e ampliar o acesso ao
+                    <p class="footer-content"><span class="bold">Preservar a memória do evento e ampliar o acesso ao
                             conhecimento científico</span> gerado em eventos é a razão de ser da plataforma Galoá
                         Proceedings.</p>
 
-                    <p class="content-footer">Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para
+                    <p class="footer-content">Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para
                         toda a comunidade científica, mantendo aceso o debate científico fomentado pelos encontros e
                         aumentando o impacto
                         do evento.</p>
