@@ -79,12 +79,23 @@
 
                 <section class="user-info">
 
-                    <button class="btn-idioms" type="button" aria-label="Botão para trocar linguagem">
-                        <span class="world-icon"></span>
-                        <!-- Icon by FontAwesome -->
-                        PT,BR
-                        <span class="drop-icon"></span>
-                    </button>
+                    <div class="dropdown">
+
+                        <button class="btn-idioms" type="button" aria-label="Botão para trocar linguagem">
+                            <span class="world-icon"></span>
+                            <!-- Icon by FontAwesome -->
+                            <span class="selected-language">PT,BR</span>
+                            <span class="drop-icon"></span>
+                        </button>
+
+                        <ul class="dropdown-elements">
+                            <li class="dropdown-item">PT,BR</li>
+                            <li class="dropdown-item">English,US</li>
+                            <li class="dropdown-item">Español,ES</li>
+                            <li class="dropdown-item">Français,FR</li>
+                        </ul>
+
+                    </div>
 
                     <p class="text-user">
                         Bem Vindo!
@@ -96,8 +107,10 @@
 
                     <span class="user-image"></span>
 
-                    <!-- Icon created Sherzod Mirzaakhmedov, and found at 
-                                        https://icon-icons.com/icon/user/85923 -->
+                    <!-- 
+                        Icon created Sherzod Mirzaakhmedov,
+                        and found at https://icon-icons.com/icon/user/85923 
+                    -->
                 </section>
 
             </section>
@@ -174,9 +187,22 @@
                     Resumo
                 </h4>
                 <p class="resume-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper mi diam, vel fermentum ligula sagittis ac. Ut nec facilisis augue, eu aliquet tortor. Suspendisse at magna molestie, luctus eros sit amet, aliquam nisl. Morbi vitae lectus malesuada, scelerisque ligula sed, auctor orci. Duis lacinia laoreet justo, malesuada rutrum dolor. Ut nec iaculis justo. Etiam vitae erat quam. Cras quam lacus, euismod nec lectus et, egestas dictum libero. Duis luctus interdum accumsan. Praesent ut molestie tellus. Fusce semper felis diam, sit amet blandit lacus ullamcorper vitae. Nullam vitae urna ut purus gravida blandit a in turpis. Phasellus volutpat nibh a mi placerat, quis finibus dolor tempus. Praesent vestibulum massa eget nunc lacinia malesuada.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer semper mi diam, vel fermentum
+                    ligula sagittis ac. Ut nec facilisis augue, eu aliquet tortor. Suspendisse at magna molestie, luctus
+                    eros sit amet, aliquam nisl. Morbi vitae lectus malesuada, scelerisque ligula sed, auctor orci. Duis
+                    lacinia laoreet justo, malesuada rutrum dolor. Ut nec iaculis justo. Etiam vitae erat quam. Cras
+                    quam lacus, euismod nec lectus et, egestas dictum libero. Duis luctus interdum accumsan. Praesent ut
+                    molestie tellus. Fusce semper felis diam, sit amet blandit lacus ullamcorper vitae. Nullam vitae
+                    urna ut purus gravida blandit a in turpis. Phasellus volutpat nibh a mi placerat, quis finibus dolor
+                    tempus. Praesent vestibulum massa eget nunc lacinia malesuada.
 
-                    Donec quis lobortis quam. Sed dapibus blandit consectetur. Ut vitae dignissim urna. In dapibus odio nec volutpat porttitor. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc vitae arcu sed orci condimentum cursus vel eget purus. Nam congue tincidunt nulla in ornare. Pellentesque a magna in erat laoreet porta ac vel diam. Phasellus porta porttitor faucibus. Vivamus sed justo arcu. Proin eu diam lacinia, tempor ipsum eget, venenatis nisi. Curabitur vehicula condimentum hendrerit. Nam consequat cursus augue, sed faucibus urna finibus in..
+                    Donec quis lobortis quam. Sed dapibus blandit consectetur. Ut vitae dignissim urna. In dapibus odio
+                    nec volutpat porttitor. Aliquam erat volutpat. Pellentesque habitant morbi tristique senectus et
+                    netus et malesuada fames ac turpis egestas. Nunc vitae arcu sed orci condimentum cursus vel eget
+                    purus. Nam congue tincidunt nulla in ornare. Pellentesque a magna in erat laoreet porta ac vel diam.
+                    Phasellus porta porttitor faucibus. Vivamus sed justo arcu. Proin eu diam lacinia, tempor ipsum
+                    eget, venenatis nisi. Curabitur vehicula condimentum hendrerit. Nam consequat cursus augue, sed
+                    faucibus urna finibus in..
                     <!-- TODO: SHOW MORE jQuery -->
                 </p>
             </section>
@@ -188,25 +214,62 @@
                 </h4>
 
                 <section class="share-ideias">
-                    <h5 class="share-ideias__title">
-                        Compartilhe suas ideias ou dúvidas com os autores!
-                    </h5>
 
-                    <div class="share-ideias__icons">
-                        <span class="icon-one icons"></span>
-                        <span class="icon-two icons"></span>
-                        <span class="icon-three icons"></span>
+                    <div class="normal-view">
+                        <h5 class="share-ideias__title">
+                            Compartilhe suas ideias ou dúvidas com os autores!
+                        </h5>
+
+                        <div class="share-ideias__icons">
+                            <span class="icon-one icons"></span>
+                            <span class="icon-two icons"></span>
+                            <span class="icon-three icons"></span>
+                        </div>
+
+                        <p class="share-ideias__description">
+                            Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe
+                            seus
+                            questionamentos ou sugestões para o autor!
+                        </p>
+
+                        <button class="new-topic" type="button">
+                            <span class="plus-icon__new-topic"></span>
+                            criar tópico
+                        </button>
                     </div>
 
-                    <p class="share-ideias__description">
-                        Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus
-                        questionamentos ou sugestões para o autor!
-                    </p>
+                    <form class="new-topic__view">
+                        <h6 class="new-topic__title">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
+                            autores!</h6>
 
-                    <button class="new-topic" type="button">
-                        <span class="plus-icon__new-topic"></span>
-                        criar tópico
-                    </button>
+                        <label class="subject-title" for="new-discussion-subject">Assunto</label>
+
+                        <input class="input-assunt" type="text" id="new-discussion-subject"
+                            placeholder="Defina um tópico sucinto para notificar os autores..." required>
+
+                        <label class="subject-title" for="new-discussion-content">Contéudo</label>
+
+                        <textarea class="subject-text" id="new-discussion-content" name="new-discussion-content"
+                            required></textarea>
+
+                        <button class="submit-button">Enviar</button>
+
+                    </form>
+
+                    <div class="new-topic__done">
+                        <h5 class="share-ideias__title">
+                            Compartilhe suas ideias ou dúvidas com os autores!
+                        </h5>
+
+                        <p class="new-topic__title">Agradecemos por sua contribuição, uma notificação será enviada ao
+                            seu email assim que seu tópico for respondido!</p>
+
+                        <p class="how-quote new-topic__subtitle">Descubra outros trabalhos!</p>
+
+                        <button class="new-topic after-done" type="button">
+                            criar novo tópico
+                        </button>
+                    </div>
 
                 </section>
 
@@ -214,63 +277,144 @@
                 <section class="indiviual-comments">
 
                     <div class="comment">
-                        <h5 class="title-comment">Assunto da pergunta aparece aqui</h5>
-                        <p class="author-comment">
-                            Carlos Henrique Santos
-                        </p>
 
-                        <p class="content-comment">
-                            Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
-                            dimensão e impacto de processo formativo situado impacto de processo formativo processo...
-                        </p>
+                        <div class="comment-content__container">
+                            <h5 class="title-comment">Assunto da pergunta aparece aqui</h5>
+                            <p class="author-comment">
+                                Carlos Henrique Santos
+                            </p>
 
-                        <section class="indiviual-comments__footer">
+                            <p class="content-comment">
+                                Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
+                                dimensão e impacto de processo formativo situado impacto de processo formativo
+                                processo...
+                            </p>
 
-                            <button class="more-info" type="button">
-                                <span class="more-info__icon"></span>
-                            </button>
+                            <section class="indiviual-comments__footer">
 
-                            <button class="heart-like" type="button">
-                                <span class="heart-icon"></span>
-                            </button>
+                                <button class="more-info" type="button">
+                                    <span class="more-info__icon"></span>
+                                </button>
 
-                            <p class="number-likes">likes</p>
-                            <p class="number-answers">resposta</p>
+                                <button class="heart-like" type="button">
+                                    <span class="heart-icon"></span>
+                                </button>
 
-                        </section>
+                                <p class="number-likes">likes</p>
+                                <p class="number-answers">resposta</p>
 
+                            </section>
+                        </div>
 
                     </div>
 
                     <div class="comment">
-                        <h5 class="title-comment">Assunto da pergunta aparece aqui</h5>
-                        <p class="author-comment">
+                        <div class="comment-content__container">
+                            <h5 class="title-comment">Assunto da pergunta aparece aqui</h5>
+                            <p class="author-comment">
+                                Carlos Henrique Santos
+                            </p>
+
+                            <p class="content-comment">
+                                Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
+                                dimensão e impacto de processo formativo situado impacto de processo formativo
+                                processo...
+                            </p>
+
+                            <section class="indiviual-comments__footer">
+
+                                <button class="more-info" type="button">
+                                    <span class="more-info__icon answerd"></span>
+                                </button>
+
+                                <button class="heart-like" type="button">
+                                    <span class="heart-icon"></span>
+                                </button>
+
+                                <p class="number-likes">likes</p>
+                                <p class="number-answers">respostas</p>
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                    <section class="answers author">
+                        <div class="container-author__header">
+                            <p class="author-comment answer-comment">
+                                Adriano da Silva
+                            </p>
+                            <div>
+                                <span class="author-answer__icon1"></span>
+                                <span class="author-answer__icon2"></span>
+                            </div>
+                        </div>
+                        <p class="content-comment answer-content">
+                            Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto
+                            de processo formativo situado impacto de processo formativo processo resente relato
+                            inscreve-se no campo da análise da dimensão e impacto de processo formativo situado
+                            impacto de processo formativo processo.
+                        </p>
+                    </section>
+
+                    <section class="answers">
+                        <p class="author-comment answer-comment">
                             Carlos Henrique Santos
                         </p>
+                        <p class="content-comment answer-content">
+                            Consegui entender melhor agora! Parece que a variação da análise da dimensão e impacto
+                            de processo formativo situado impacto de processo formativo.Obrigada pela resposta,
+                            muito interessante o seu trabalho!
+                        </p>
+                    </section>
 
-                        <p class="content-comment">
-                            Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da
-                            dimensão e impacto de processo formativo situado impacto de processo formativo processo...
+                    <section class="answers author">
+
+                        <div class="container-author__header">
+                            <p class="author-comment answer-comment">
+                                Camila Ferreira Andrade
+                            </p>
+                            <div>
+                                <span class="coauthor-answer__icon1"></span>
+                                <span class="coauthor-answer__icon2"></span>
+
+                            </div>
+                        </div>
+
+
+                        <p class="content-comment answer-content">
+                            Também ínteressante lembrar que o relato inscreve-se no campo da análise da dimensão e
+                            impacto de processo formativo situado impacto de processo formativo processo resente
+                            relato inscreve-se no campo da análise da dimensão e impacto de processo formativo
+                            situado impacto de processo formativo processo.
+
+                            Situado impacto de processo formativo processo resente relato inscreve-se no campo da
+                            análise da dimensão e impacto de processo formativo situado impacto de processo
+                            formativo processo.
                         </p>
 
-                        <section class="indiviual-comments__footer">
+                    </section>
 
-                            <button class="more-info" type="button">
-                                <span class="more-info__icon"></span>
-                            </button>
+                    <section class="answers author">
+                        <div class="container-author__header">
+                            <p class="author-comment answer-comment">
+                                Ana Carolina
+                            </p>
+                            <div>
+                                <span class="coauthor-answer__icon1"></span>
+                                <span class="coauthor-answer__icon2"></span>
 
-                            <button class="heart-like" type="button">
-                                <span class="heart-icon"></span>
-                            </button>
-
-                            <p class="number-likes">likes</p>
-                            <p class="number-answers">respostas</p>
-
-                        </section>
-                    </div>
+                            </div>
+                        </div>
+                        <p class="content-comment answer-content">
+                            Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de
+                            processo formativo situado impacto de processo formativo processo resente relato inscreve-se
+                            no campo da análise da dimensão e impacto de processo formativo situado impacto de processo
+                            formativo processo.
+                        </p>
+                    </section>
                 </section>
-
-                <!-- TODO: Tornar dinamico com Js -->
             </div>
 
             <section class="footer">
@@ -279,10 +423,14 @@
 
                 <div class="description-footer">
 
-                    <p class="content-footer"><span class="bold">Preservar a memória do evento e ampliar o acesso ao conhecimento científico</span> gerado em eventos é a razão de ser da plataforma Galoá Proceedings.</p>
+                    <p class="content-footer"><span class="bold">Preservar a memória do evento e ampliar o acesso ao
+                            conhecimento científico</span> gerado em eventos é a razão de ser da plataforma Galoá
+                        Proceedings.</p>
 
-                    <p class="content-footer">Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para toda a comunidade científica, mantendo aceso o debate científico fomentado pelos encontros e aumentando o impacto
-                    do evento.</p>
+                    <p class="content-footer">Os trabalhos publicados aqui têm maior alcance e ficam disponíveis para
+                        toda a comunidade científica, mantendo aceso o debate científico fomentado pelos encontros e
+                        aumentando o impacto
+                        do evento.</p>
 
                 </div>
 
@@ -291,6 +439,8 @@
     </div>
 
     <script src="src/js/jquery-3.6.0.min.js"></script>
+    <script src="src/js/jquery.shorten.1.0.js"></script>
+    <script src="src/js/index.js"></script>
 
 </body>
 

@@ -80,7 +80,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 96px;
+    width: 120px;
     height: 34px;
     padding: 2px;
     border: 1px solid #CCCCCC;
@@ -100,4 +100,30 @@
 
 .drop-icon {
   content: url(../img/dropdown.svg);
+}
+
+/* Button Js */
+
+
+.dropdown-elements {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 120px;
+  border: 1px solid #CCCCCC;
+  border-radius: 1px;
+  background-color: #fdf1eb;
+
+  cursor: pointer;
+}
+
+.dropdown-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 1px solid #CCCCCC;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  font-weight: bold;
 }
