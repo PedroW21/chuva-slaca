@@ -19,7 +19,7 @@
     width: 48.75rem;
   }
   .new-topic__submit-button {
-    margin: 0 80.7%;
+    margin-left: 0 80.7%;
 }
 }
 
@@ -76,10 +76,48 @@
   }
 
   iframe {
-    width: 700px;
+    width: 43.75rem;
   }
 
   .new-topic__submit-button {
       margin: 0 76.7%;
   }
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+    
+    .minor-title {
+        font-size: 0.6rem;
+    }
+
+    .main-title {
+        font-size: 1.07rem;
+    }
+
+    .periodic-code {
+        font-size: 0.6rem;
+    }
+
+    .lecture-title {
+        font-size: 1.1rem;
+    }
+
+    iframe {
+        width: 30rem;
+        height: 34.9rem;
+    }
+
+    .details {
+        width: 30%;
+    }
+
+    .new-topic__submit-button {
+        margin: 0 68.5%;
+    }
+
+    .comment-content {
+        font-size: .925rem;
+    }
 }
