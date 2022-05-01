@@ -21,7 +21,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    max-width: 10.313rem;
+    width: 10.313rem;
   }
   
   .heart-like {
@@ -40,6 +40,7 @@
   
   .more-info__icon {
     content: url(../img/mais-informacoes-1.svg);
+    width: .4rem;
   }
   
   /*  Content Individual Comments */
