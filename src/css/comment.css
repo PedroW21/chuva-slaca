@@ -32,7 +32,7 @@
 }
 
 .heart-icon {
-  content: url(../img/green-apples\ 22.png);
+  content: url(../img/icons/heart-icon.png);
 }
 
 .more-info {
@@ -41,7 +41,7 @@
 }
 
 .more-info__icon {
-  content: url(../img/mais-informacoes-1.svg);
+  content: url(../img/icons/more-info-3dots.svg);
   width: 0.3rem;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .check {
-  content: url(../img/sure.svg);
+  content: url(../img/icons/orange-check.svg);
   width: 2rem;
   filter: contrast(0);
 }

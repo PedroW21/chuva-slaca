@@ -87,7 +87,7 @@
 }
 
 .new-topic__plus-icon {
-  content: url(../img/icon\ -\ criar.svg);
+  content: url(../img/icons/new-topic-icon.svg);
 }
 
 /* New Discussion Topic (user interaction) */
@@ -150,7 +150,7 @@
 }
 
 .bold-icon {
-  content: url(../img/bold.svg);
+  content: url(../img/icons/bold.svg);
   cursor: pointer;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -158,7 +158,7 @@
 }
 
 .italic-icon {
-  content: url(../img/italic.svg);
+  content: url(../img/icons/italic.svg);
   cursor: pointer;
   width: 1.2rem;
 }

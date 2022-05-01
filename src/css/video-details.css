@@ -3,9 +3,13 @@
   justify-content: space-between;
 }
 
+/* The video */
+
 iframe {
   margin-left: 2%;
 }
+/* Details */
+
 
 .details {
   border: 2px solid var(--border-elements);

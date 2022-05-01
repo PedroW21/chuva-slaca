@@ -1,0 +1,255 @@
+/* Laptop Large */
+
+@media (max-width: 1440px) {
+  iframe {
+    width: 48.75rem;
+  }
+}
+
+/* Laptop Normal */
+
+@media (max-width: 1024px) {
+  .lateral-nav {
+    display: none;
+  }
+
+  /* Header page */
+  .hamburguer-button {
+    content: url(../img/icons/bars-solid.svg);
+    display: initial;
+    margin-left: 0.5rem;
+    width: 24px;
+  }
+
+  .main-title {
+    font-size: 1.25rem;
+  }
+
+  .btn-idioms {
+    width: 5.5rem;
+  }
+
+  .selected-language {
+    font-size: 0.9rem;
+  }
+
+  .dropdown-elements {
+    width: 5.5rem;
+    font-size: 0.9rem;
+  }
+
+  .text-user {
+    font-size: 0.9rem;
+  }
+
+  .user-image {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  /* Details section */
+  .details {
+    margin-right: 1rem;
+  }
+
+  .lecture-title {
+    width: 70%;
+  }
+
+  .user-interaction {
+    margin-right: 1rem;
+  }
+
+  /* Video */
+  iframe {
+    width: 43.75rem;
+  }
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  /* Header page */
+
+  .minor-title {
+    font-size: 0.6rem;
+  }
+
+  .main-title {
+    font-size: 1.07rem;
+  }
+
+  .periodic-code {
+    font-size: 0.6rem;
+  }
+
+  /* Header main content */
+  .lecture-title {
+    font-size: 1.1rem;
+  }
+
+  /* Video */
+
+  iframe {
+    width: 30rem;
+    height: 34.9rem;
+  }
+
+  /* Detials section */
+  .details {
+    width: 30%;
+  }
+
+  .comment-content {
+    font-size: 0.925rem;
+  }
+}
+
+@media (max-width: 425px) {
+  /* Header page */
+
+  .container-header {
+    height: 11.5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .header-information {
+    height: 10rem;
+  }
+
+  .minor-title,
+  .periodic-code {
+    font-size: 0.9rem;
+  }
+
+  .main-title {
+    font-size: 1.3rem;
+  }
+
+  .user-info {
+    margin: 0 auto;
+    width: 95%;
+    padding-bottom: 0.5rem;
+  }
+
+  .btn-idioms {
+    width: 6.5rem;
+  }
+
+  .selected-language {
+    font-size: 1.1rem;
+  }
+
+  .text-user {
+    margin-left: 14%;
+    font-size: 1.1rem;
+  }
+
+  .dropdown-elements {
+    width: 6.5rem;
+    font-size: 1.1rem;
+  }
+
+  .user-image {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  /* header main content */
+
+  .main-content__header-container {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .lecture-title {
+    width: 95%;
+    font-size: 1.4rem;
+  }
+
+  .user-interaction {
+    align-items: center;
+    display: flex;
+    width: 90%;
+    margin-top: 1rem;
+  }
+
+  .btn-down,
+  .small-btn {
+    height: 3rem;
+    margin-right: 0.15rem;
+  }
+
+  .small-btn {
+    width: 4rem;
+  }
+
+  .how-quote {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 25%;
+  }
+
+  /* Video & Details */
+
+  .video-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  iframe {
+    width: 95%;
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Details */
+
+  .details {
+    width: 95%;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .details-content {
+    font-size: 1.3rem;
+  }
+
+  .universities {
+    font-size: 1rem;
+    width: 50%;
+    margin-top: 1rem;
+  }
+
+  /* Resume */
+
+  .resume {
+    font-size: 1.5rem;
+    width: 95%;
+  }
+
+  /* Discussion */
+
+  .discussion {
+    width: 95%;
+  }
+
+  .ideias-doubts {
+    height: 22rem;
+    padding: 0.25rem;
+  }
+
+  .ideias-doubts__initial-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .ideias-doubts__title {
+    font-size: 1.5rem;
+  }
+}

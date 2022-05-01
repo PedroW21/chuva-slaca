@@ -24,7 +24,7 @@
   }
   
   .down-icon {
-    content: url(../img/download-solid.svg);
+    content: url(../img/icons/download-icon.svg);
     filter: invert();
     width: 1.188rem;
   }
@@ -39,13 +39,13 @@
   }
   
   .star {
-    content: url(../img/star-regular.svg);
+    content: url(../img/icons/star-icon.svg);
     filter: invert();
     width: 1.188rem;
   }
   
   .doi {
-    content: url(../img/doi.svg);
+    content: url(../img/icons/doi-icon.svg);
   }
   
   .how-quote {

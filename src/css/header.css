@@ -53,7 +53,7 @@
 }
 
 .user-image{
-    background-image: url(../img/user.svg);
+    background-image: url(../img/icons/user.svg);
     
     height: 3rem;
     margin-left: .75rem;
@@ -81,12 +81,12 @@
 }
 
 .world-icon{
-  content: url(../img/globe-solid.svg);
+  content: url(../img/icons/globe-solid.svg);
   width: 1rem;
 }
 
 .drop-icon {
-  content: url(../img/dropdown.svg);
+  content: url(../img/icons/dropdown.svg);
 }
 
 /* Language Options */
