@@ -57,6 +57,6 @@ button {
   cursor: pointer;
 }
 
-.hidden {
-  display: none !important;
+.hamburguer-button {
+  display: none;
 }

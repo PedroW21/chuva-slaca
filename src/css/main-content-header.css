@@ -8,7 +8,7 @@
   .lecture-title {
     color: var(--dark-darker-orange);
     font-weight: 900;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Roboto";
     width: 55%;
   }

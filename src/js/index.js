@@ -88,6 +88,12 @@ $(".answerd").click(() => {
   $(".answers").slideToggle("slow");
 });
 
+/* Mobile*/
+
+$(".hamburguer-button").click(() => {
+  $(".lateral-nav").toggle("slide");
+})
+
 // Functions
 
 function dropDownItemsVisibility() {

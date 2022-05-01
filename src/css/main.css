@@ -9,3 +9,77 @@
 @import "comment.css";
 @import "footer.css";
 @import "comment-answers.css";
+
+/* Media query */
+
+/* Laptop Large */
+
+@media (max-width: 1440px) {
+  iframe {
+    width: 48.75rem;
+  }
+  .new-topic__submit-button {
+    margin: 0 80.7%;
+}
+}
+
+/* Laptop Normal */
+
+@media (max-width: 1024px) {
+  .lateral-nav {
+    display: none;
+  }
+
+  .hamburguer-button {
+      content: url(../img/bars-solid.svg);
+      display: initial;
+      margin-left: 0.5rem;
+      width: 24px;
+  }
+
+  .main-title {
+    font-size: 1.25rem;
+  }
+
+  .btn-idioms {
+    width: 5.5rem;
+  }
+
+  .selected-language {
+    font-size: 0.9rem;
+  }
+
+  .dropdown-elements {
+    width: 5.5rem;
+    font-size: 0.9rem;
+  }
+
+  .text-user {
+    font-size: 0.9rem;
+  }
+
+  .user-image {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .details {
+    margin-right: 1rem;
+  }
+
+  .lecture-title {
+    width: 70%;
+  }
+
+  .user-interaction {
+    margin-right: 1rem;
+  }
+
+  iframe {
+    width: 700px;
+  }
+
+  .new-topic__submit-button {
+      margin: 0 76.7%;
+  }
+}
