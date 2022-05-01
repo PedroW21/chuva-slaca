@@ -30,7 +30,14 @@
   border-bottom: 3px solid var(--border-sidebar-color);
   padding-bottom: 0.313rem;
   padding: 0.5rem;
+  cursor: pointer;
 }
+
+.menu-items:hover {
+  background: var(--light-orange-bg);
+  transition: .30s background;
+}
+
 
 .item-content {
   margin-left: 12%;
@@ -38,9 +45,8 @@
   color: var(--light-brown-text);
 }
 
-/* TODO: Estilizar a pagina atualmente ativa */
 
-.selected-page {
+.selected-page{
   background: var(--light-orange-bg);
   border-left: 5px solid var(--dark-light-orange);
 }

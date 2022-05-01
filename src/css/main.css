@@ -18,9 +18,6 @@
   iframe {
     width: 48.75rem;
   }
-  .new-topic__submit-button {
-    margin-left: 0 80.7%;
-  }
 }
 
 /* Laptop Normal */
@@ -78,10 +75,6 @@
   iframe {
     width: 43.75rem;
   }
-
-  .new-topic__submit-button {
-    margin: 0 76.7%;
-  }
 }
 
 /* Tablet */
@@ -110,10 +103,6 @@
 
   .details {
     width: 30%;
-  }
-
-  .new-topic__submit-button {
-    margin: 0 68.5%;
   }
 
   .comment-content {
@@ -294,10 +283,6 @@
     font-size: 1.2rem;
   }
 
-  .new-topic__submit-button{
-    margin: 0 55.4%
-  }
-
   /* New Topic - After send */
 
   .topic-done__title {
@@ -356,7 +341,6 @@
   .author-comment {
     font-size: 1.2rem;
   }
-
 
   /* Page footer */
   .footer {

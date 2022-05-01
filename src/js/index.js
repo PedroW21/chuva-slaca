@@ -75,7 +75,7 @@ $(".new-topic__submit-button").click((event) => {
   newTopicDone.slideDown(2000);
 });
 
-// 
+//  Interaction to send another topic
 
 $(".after-send").click(() => {
   newTopicDone.hide();
@@ -92,7 +92,7 @@ $(".answerd").click(() => {
 
 $(".hamburguer-button").click(() => {
   $(".lateral-nav").toggle("slide");
-})
+});
 
 // Functions
 
@@ -103,32 +103,42 @@ function dropDownItemsVisibility() {
 function discussionTopic(title, content) {
   return $(".indiviual-comments").append(`
   <div class="comment">
-  <div class="comment-content__container">
-  <h5 class="comment-title">${title}</h5>
-  <p class="comment-author">
-      Carlos Henrique Santos
-  </p>
+    <div class="comment-content__container">
+      <h5 class="comment-title">${title}</h5>
+      <p class="comment-author">
+          Carlos Henrique Santos
+      </p>
 
-  <p class="comment-content">
-      ${content}
-  </p>
+      <p class="comment-content">
+          ${content}
+      </p>
 
-  <section class="comment-footer">
+      <section class="comment-footer">
 
-  <button class="more-info" type="button">
-    <span class="more-info__icon"></span>
-  </button>
+      <button class="more-info" type="button">
+        <span class="more-info__icon"></span>
+      </button>
 
-  <button class="heart-like" type="button">
-    <span class="heart-icon"></span>
-  </button>
+      <button class="heart-like" type="button">
+        <span class="heart-icon"></span>
+      </button>
 
-  <p class="number-likes">likes</p>
-  <p class="number-answers">resposta</p>
+      <p class="number-likes">0 likes</p>
+      <p class="number-answers">0 resposta</p>
 
-</section>
-</div>
-
+    </section>
+    ${waitingFeedback()}
+  </div>
 </div>
 `);
+}
+
+function waitingFeedback() {
+  return `
+  <div class="comment__waiting-feedback">
+		<span class="check"></span>
+		<p class="feedback-text">Aguardando feedback dos autores</p>
+		<p class="edit-topic">Editar tópico</p>
+	</div>
+  `;
 }
