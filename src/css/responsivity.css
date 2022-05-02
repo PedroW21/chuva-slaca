@@ -120,21 +120,21 @@
 
   .minor-title,
   .periodic-code {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 
   .main-title {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 
   .user-info {
-    margin: 0 auto;
-    width: 95%;
     padding-bottom: 0.5rem;
+    margin-right: 0;
   }
 
   .btn-idioms {
     width: 6.5rem;
+    margin-left: 1rem;
   }
 
   .selected-language {
@@ -166,7 +166,7 @@
 
   .lecture-title {
     width: 95%;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .user-interaction {
@@ -190,6 +190,7 @@
     margin-top: 0;
     margin-right: 0;
     margin-left: 25%;
+    font-size: 1.3rem;
   }
 
   /* Video & Details */
@@ -214,6 +215,10 @@
     margin-right: 0;
   }
 
+  .details-title {
+    font-size: 1.5rem;
+  }
+
   .details-content {
     font-size: 1.3rem;
   }
@@ -229,6 +234,10 @@
   .resume {
     font-size: 1.5rem;
     width: 95%;
+  }
+
+  .resume-content {
+    font-size: 1.3rem;
   }
 
   /* Discussion */
@@ -251,5 +260,105 @@
 
   .ideias-doubts__title {
     font-size: 1.5rem;
+  }
+
+  .ideas-doubts__description {
+    font-size: 1.3rem;
+    width: 95%;
+  }
+  
+  .new-topic{
+    font-size: 1.2rem;
+  }
+
+  /* New topic view */
+
+  .new-topic__title{
+    font-size: 1.3rem;
+  }
+
+  .subject-title {
+    font-size: 1.2rem;
+  }
+
+  /* After send new topic */
+
+  .topic-done__title {
+    font-size: 1.5rem;
+  }
+
+  .topic-done__info {
+    font-size: 1.3rem;
+  }
+
+  .topic-done__subtitle {
+    font-size: 1.2rem;
+  }
+
+
+  /* Comments */
+
+  .comment {
+    height: 15rem;
+  }
+
+  .comment-title {
+    font-size: 1.3rem;
+  }
+  
+  .comment-author {
+    font-size: 1.1rem;
+  }
+
+  .comment-content{
+    font-size: 1.2rem;
+  }
+
+  /* Comment footer */
+
+  .comment-footer{
+    width: 15rem;
+  }
+
+  .heart-like {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .more-info {
+    margin-right: 0;
+  }
+
+  .more-info__icon {
+    width: 0.4rem;
+  }
+
+  .number-likes, .number-answers {
+    font-size: 1.2rem;
+  }
+
+  /* Answers */
+
+  .answers {
+    height: 17rem;
+  }
+
+  .author-comment {
+    font-size: 1.1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    width: 15rem;
+
+    padding-bottom: 1rem;
+  }
+
+  .footer-description{
+    width: 95%;
   }
 }
