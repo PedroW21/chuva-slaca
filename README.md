@@ -1,2 +1,2 @@
 # Exercício proposto
-Repositório para realizar o desenvolviment do exercício proposto pela Chuva
+Repositório para realizar o desenvolvimento do exercício proposto pela Chuva
